@@ -1,0 +1,12 @@
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="9" width="30" height="30" rx="9" stroke="url(#lg)" stroke-width="1.5"/>
+  <path d="M10 17v14M10 24h5.5M15.5 17v14" stroke="url(#lg)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M19 17v14h4" stroke="url(#lg)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="44" y="31" font-family="'Space Grotesk', system-ui, sans-serif" font-size="20" font-weight="600" fill="#ededef">Henrique Lima</text>
+</svg>
