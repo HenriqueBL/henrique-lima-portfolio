@@ -45,7 +45,7 @@ export const resume: ResumeContent = {
       },
       {
         title: "High School — Intercâmbio (EUA)",
-        institution: "Programa Ganhe o Mundo (PGM)",
+        institution: "Mt Ida High School (Arkansas) · Programa Ganhe o Mundo (PGM)",
         period: "1 semestre",
         detail: "Imersão acadêmica e cultural nos Estados Unidos; base do inglês fluente.",
       },
@@ -140,7 +140,7 @@ export const resume: ResumeContent = {
       },
       {
         title: "High School — Exchange (USA)",
-        institution: "Ganhe o Mundo Program (PGM)",
+        institution: "Mt Ida High School (Arkansas) · Ganhe o Mundo Program (PGM)",
         period: "1 semester",
         detail: "Academic and cultural immersion in the United States; foundation of fluent English.",
       },

@@ -4,7 +4,7 @@ import type { TimelineItem } from "@/types";
 /* Parágrafos da história profissional (página /about). */
 export const story: string[] = [
   "Sou o Henrique, estudante de Análise e Desenvolvimento de Sistemas desde janeiro de 2025, atualmente no 4º período. Minha entrada no mundo da tecnologia veio de uma curiosidade genuína: entender como as coisas funcionam por dentro e transformar ideias em software que resolve problemas reais.",
-  "Antes da faculdade, vivi uma experiência que mudou minha forma de ver o mundo: cursei parte do High School nos Estados Unidos pelo Programa Ganhe o Mundo (PGM). Esse semestre me deu inglês fluente, autonomia e a confiança de me virar em ambientes novos — habilidades que carrego para dentro do código todos os dias.",
+  "Antes da faculdade, vivi uma experiência que mudou minha forma de ver o mundo: cursei parte do High School nos Estados Unidos — na Mt Ida High School, no Arkansas — pelo Programa Ganhe o Mundo (PGM). Esse semestre me deu fluência em inglês, autonomia e a confiança de me virar em ambientes novos — habilidades que carrego para dentro do código todos os dias.",
   "Aprendi Java pela Udemy e desde então venho construindo projetos full stack de verdade. Meu diferencial está em como eu desenvolvo: trato a IA como uma parceira de engenharia. Com ferramentas como o Claude Code, planejo a arquitetura, escrevo, refatoro e reviso código com rapidez — sem abrir mão de entender cada decisão técnica.",
   "Acredito que saber colaborar com IA é uma habilidade profissional moderna, tão importante quanto dominar uma linguagem. Ela me deixa focar no que importa: pensar no problema, na experiência do usuário e na qualidade da solução. Estou em busca de um estágio onde eu possa aprender com um time, contribuir de verdade e crescer como desenvolvedor.",
 ];
@@ -75,7 +75,7 @@ export const journey: TimelineItem[] = [
   },
   {
     period: "Intercâmbio",
-    title: "High School nos Estados Unidos",
+    title: "Mt Ida High School — Arkansas, EUA",
     subtitle: "Programa Ganhe o Mundo (PGM)",
     description:
       "Um semestre de imersão acadêmica e cultural nos EUA — a origem do inglês fluente e do perfil adaptável.",
