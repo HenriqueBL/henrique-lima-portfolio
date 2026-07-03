@@ -16,7 +16,10 @@ export type ProjectCategory =
   | "Web App"
   | "Dashboard"
   | "Mobile-first"
-  | "Full Stack";
+  | "Full Stack"
+  | "Back-end"
+  | "Front-end"
+  | "CLI";
 
 export interface Project {
   slug: string;

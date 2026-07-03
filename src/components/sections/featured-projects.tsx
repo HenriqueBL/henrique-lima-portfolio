@@ -13,7 +13,7 @@ export function FeaturedProjects() {
         <SectionHeading
           eyebrow="Projetos em destaque"
           title="Aplicações construídas do conceito ao deploy"
-          description="Estudos de caso full stack desenvolvidos com colaboração de IA — cada um com arquitetura, desafios e aprendizados documentados."
+          description="Projetos reais em Java e TypeScript, desenvolvidos com colaboração de IA — cada um com arquitetura, desafios e aprendizados documentados."
         />
         <Reveal delay={0.1}>
           <ButtonLink href="/projects" variant="outline" className="no-print">

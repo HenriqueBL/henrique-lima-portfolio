@@ -65,6 +65,6 @@ export const socialLinks: SocialLink[] = [
 export const quickStats = [
   { value: "2025", label: "Início do curso" },
   { value: "4º", label: "Período atual" },
-  { value: "6+", label: "Projetos construídos" },
+  { value: "4", label: "Projetos no GitHub" },
   { value: "EN", label: "Inglês fluente" },
 ];

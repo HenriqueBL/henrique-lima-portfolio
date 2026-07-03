@@ -9,7 +9,7 @@ import { ContactCTA } from "@/components/sections/contact-cta";
 export const metadata: Metadata = pageMetadata({
   title: "Projetos",
   description:
-    "Estudos de caso full stack de Henrique Lima — sistemas financeiros, de estoque, agendamento e mais, construídos com desenvolvimento assistido por IA.",
+    "Projetos reais de Henrique Lima em Java e TypeScript — de uma API REST com Spring Boot a aplicações Java (POO) e este portfólio em Next.js, construídos com desenvolvimento assistido por IA.",
   path: "/projects",
 });
 

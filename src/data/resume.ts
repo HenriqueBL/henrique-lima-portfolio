@@ -92,19 +92,19 @@ export const resume: ResumeContent = {
     ],
     projects: [
       {
-        name: "FinFlow — Controle Financeiro",
-        description: "App full stack de finanças pessoais com dashboard e relatórios visuais.",
-        tech: "Next.js, TypeScript, Node.js",
+        name: "Todo API — Gerenciador de Tarefas",
+        description: "API REST com CRUD, validação, tratamento global de erros e testes.",
+        tech: "Java 17, Spring Boot, JPA, H2, JUnit",
       },
       {
-        name: "StockWise — Gestão de Estoque",
-        description: "Sistema de estoque com alertas e trilha de auditoria.",
-        tech: "Java, Spring Boot, React, MySQL",
+        name: "Sistema de Biblioteca",
+        description: "App de console em Java aplicando POO: herança, polimorfismo e Streams.",
+        tech: "Java, POO, Coleções, Maven",
       },
       {
-        name: "Agendafy — Agendamento",
-        description: "Plataforma de agendamento com prevenção de conflitos de horário.",
-        tech: "Java, Spring Boot, Next.js, MySQL",
+        name: "Portfólio Pessoal",
+        description: "Este site: Next.js com SSG, dark mode, currículo bilíngue e SEO completo.",
+        tech: "Next.js, TypeScript, Tailwind CSS",
       },
     ],
     labels: {
@@ -187,19 +187,19 @@ export const resume: ResumeContent = {
     ],
     projects: [
       {
-        name: "FinFlow — Personal Finance",
-        description: "Full stack personal finance app with dashboard and visual reports.",
-        tech: "Next.js, TypeScript, Node.js",
+        name: "Todo API — Task Manager",
+        description: "REST API with CRUD, validation, global error handling and tests.",
+        tech: "Java 17, Spring Boot, JPA, H2, JUnit",
       },
       {
-        name: "StockWise — Inventory Management",
-        description: "Inventory system with low-stock alerts and audit trail.",
-        tech: "Java, Spring Boot, React, MySQL",
+        name: "Library System",
+        description: "Java console app applying OOP: inheritance, polymorphism and Streams.",
+        tech: "Java, OOP, Collections, Maven",
       },
       {
-        name: "Agendafy — Scheduling",
-        description: "Scheduling platform with automatic time-conflict prevention.",
-        tech: "Java, Spring Boot, Next.js, MySQL",
+        name: "Personal Portfolio",
+        description: "This site: Next.js with SSG, dark mode, bilingual résumé and full SEO.",
+        tech: "Next.js, TypeScript, Tailwind CSS",
       },
     ],
     labels: {
