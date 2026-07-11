@@ -41,21 +41,21 @@ export const resume: ResumeContent = {
       {
         title: "Análise e Desenvolvimento de Sistemas",
         institution: "Estácio · Graduação em andamento (4º período)",
-        period: "Jan 2025 — Atual",
+        period: "Jan 2025 — Jun 2027 (previsto)",
         detail: "Foco: Estrutura de Dados, POO, Banco de Dados SQL e Engenharia de Software.",
       },
       {
         title: "High School — Intercâmbio (EUA)",
         institution: "Mt Ida High School (Arkansas) · Programa Ganhe o Mundo (PGM)",
-        period: "1 semestre",
+        period: "2018 · 1 semestre",
         detail: "Imersão acadêmica e cultural nos Estados Unidos; base do inglês fluente.",
       },
     ],
     courses: [
       {
-        title: "Curso de Java",
+        title: "Curso de Java (54h)",
         provider: "Udemy",
-        detail: "Fundamentos da linguagem, orientação a objetos e lógica de programação.",
+        detail: "Fundamentos da linguagem, orientação a objetos e lógica de programação. Concluído em Fev/2026.",
       },
     ],
     languages: [
@@ -143,21 +143,21 @@ export const resume: ResumeContent = {
       {
         title: "Systems Analysis and Development",
         institution: "Estácio · In progress (4th semester)",
-        period: "Jan 2025 — Present",
+        period: "Jan 2025 — Jun 2027 (expected)",
         detail: "Focus: Data Structures, OOP, SQL Databases and Software Engineering.",
       },
       {
         title: "High School — Exchange (USA)",
         institution: "Mt Ida High School (Arkansas) · Ganhe o Mundo Program (PGM)",
-        period: "1 semester",
+        period: "2018 · 1 semester",
         detail: "Academic and cultural immersion in the United States; foundation of fluent English.",
       },
     ],
     courses: [
       {
-        title: "Java Course",
+        title: "Java Course (54h)",
         provider: "Udemy",
-        detail: "Language fundamentals, object-oriented programming and programming logic.",
+        detail: "Language fundamentals, object-oriented programming and programming logic. Completed in Feb 2026.",
       },
     ],
     languages: [
