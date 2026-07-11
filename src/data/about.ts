@@ -3,7 +3,7 @@ import type { TimelineItem } from "@/types";
 
 /* Parágrafos da história profissional (página /about). */
 export const story: string[] = [
-  "Sou o Henrique, estudante de Análise e Desenvolvimento de Sistemas desde janeiro de 2025, atualmente no 4º período. Minha entrada no mundo da tecnologia veio de uma curiosidade genuína: entender como as coisas funcionam por dentro e transformar ideias em software que resolve problemas reais.",
+  "Sou o Henrique, estudante de Análise e Desenvolvimento de Sistemas desde janeiro de 2025, atualmente no 5º período. Minha entrada no mundo da tecnologia veio de uma curiosidade genuína: entender como as coisas funcionam por dentro e transformar ideias em software que resolve problemas reais.",
   "Antes da faculdade, vivi uma experiência que mudou minha forma de ver o mundo: cursei parte do High School nos Estados Unidos — na Mt Ida High School, no Arkansas — pelo Programa Ganhe o Mundo (PGM). Esse semestre me deu fluência em inglês, autonomia e a confiança de me virar em ambientes novos — habilidades que carrego para dentro do código todos os dias.",
   "Aprendi Java pela Udemy e desde então venho construindo projetos de verdade — de automações e extração de dados em Python a APIs REST e aplicações web. Meu diferencial está em como eu desenvolvo: trato a IA como uma parceira de engenharia. Com ferramentas como o Claude Code, planejo a arquitetura, escrevo, refatoro e reviso código com rapidez — sem abrir mão de entender cada decisão técnica.",
   "Acredito que saber colaborar com IA é uma habilidade profissional moderna, tão importante quanto dominar uma linguagem. Ela me deixa focar no que importa: pensar no problema, na experiência do usuário e na qualidade da solução. Estou em busca de um estágio onde eu possa aprender com um time, contribuir de verdade e crescer como desenvolvedor.",
@@ -14,7 +14,7 @@ export const values = [
     icon: GraduationCap,
     title: "Estudante de ADS",
     description:
-      "No 4º período, com base sólida em lógica, POO e desenvolvimento web — e sempre estudando além da grade.",
+      "No 5º período, com base sólida em lógica, POO e desenvolvimento web — e sempre estudando além da grade.",
   },
   {
     icon: Globe2,
@@ -52,7 +52,7 @@ export const journey: TimelineItem[] = [
   {
     period: "2025 — Atual",
     title: "Análise e Desenvolvimento de Sistemas",
-    subtitle: "Graduação · 4º período",
+    subtitle: "Graduação · 5º período",
     description:
       "Aprofundando em programação, orientação a objetos, banco de dados e desenvolvimento web full stack.",
     tags: ["Java", "POO", "Web", "Banco de Dados"],
