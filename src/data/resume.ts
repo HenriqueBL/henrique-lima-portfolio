@@ -29,7 +29,7 @@ export type ResumeContent = Record<Locale, ResumeSection>;
 export const resume: ResumeContent = {
   pt: {
     summary:
-      "Estudante de Análise e Desenvolvimento de Sistemas (5º período) em busca de estágio em desenvolvimento de software. Trabalho com Java e Python — incluindo automação de processos e extração de dados com Selenium, Playwright e requests — além de aplicações web com React, integração via APIs REST e banco de dados SQL. Uso desenvolvimento assistido por IA para entregar com qualidade e velocidade. Inglês fluente, com semestre de High School nos Estados Unidos; perfil autodidata, proativo e movido por curiosidade.",
+      "Estudante de Análise e Desenvolvimento de Sistemas (4º período) em busca de estágio em desenvolvimento de software. Trabalho com Java e Python — incluindo automação de processos e extração de dados com Selenium, Playwright e requests — além de aplicações web com React, integração via APIs REST e banco de dados SQL. Uso desenvolvimento assistido por IA para entregar com qualidade e velocidade. Inglês fluente, com semestre de High School nos Estados Unidos; perfil autodidata, proativo e movido por curiosidade.",
     strengths: [
       "Automação de processos e extração de dados com Python (Selenium, Playwright, requests)",
       "Aplicações web e APIs REST com Java, Spring Boot e React",
@@ -42,7 +42,7 @@ export const resume: ResumeContent = {
         title: "Análise e Desenvolvimento de Sistemas",
         institution: "Graduação em andamento",
         period: "Jan 2025 — Atual",
-        detail: "5º período. Foco em programação, POO, banco de dados e desenvolvimento web.",
+        detail: "4º período. Foco em programação, POO, banco de dados e desenvolvimento web.",
       },
       {
         title: "High School — Intercâmbio (EUA)",
@@ -130,7 +130,7 @@ export const resume: ResumeContent = {
   },
   en: {
     summary:
-      "Systems Analysis and Development student (5th semester) seeking a software development internship. I work with Java and Python — including process automation and data extraction with Selenium, Playwright and requests — plus web applications with React, integration through REST APIs and SQL databases. I use AI-assisted development to ship with quality and speed. Fluent in English, with a High School semester in the United States; self-taught, proactive and driven by curiosity.",
+      "Systems Analysis and Development student (4th semester) seeking a software development internship. I work with Java and Python — including process automation and data extraction with Selenium, Playwright and requests — plus web applications with React, integration through REST APIs and SQL databases. I use AI-assisted development to ship with quality and speed. Fluent in English, with a High School semester in the United States; self-taught, proactive and driven by curiosity.",
     strengths: [
       "Process automation and data extraction with Python (Selenium, Playwright, requests)",
       "Web applications and REST APIs with Java, Spring Boot and React",
@@ -143,7 +143,7 @@ export const resume: ResumeContent = {
         title: "Systems Analysis and Development",
         institution: "Bachelor's degree (in progress)",
         period: "Jan 2025 — Present",
-        detail: "5th semester. Focus on programming, OOP, databases and web development.",
+        detail: "4th semester. Focus on programming, OOP, databases and web development.",
       },
       {
         title: "High School — Exchange (USA)",

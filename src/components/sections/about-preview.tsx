@@ -9,7 +9,7 @@ const highlights = [
   {
     icon: GraduationCap,
     title: "Estudante de ADS",
-    text: "5º período, com base sólida e estudo constante além da grade.",
+    text: "4º período, com base sólida e estudo constante além da grade.",
   },
   {
     icon: Languages,

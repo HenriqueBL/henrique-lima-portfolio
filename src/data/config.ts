@@ -64,7 +64,7 @@ export const socialLinks: SocialLink[] = [
 /** Métricas rápidas exibidas no hero / sobre. */
 export const quickStats = [
   { value: "2025", label: "Início do curso" },
-  { value: "5º", label: "Período atual" },
+  { value: "4º", label: "Período atual" },
   { value: "5", label: "Projetos no GitHub" },
   { value: "EN", label: "Inglês fluente" },
 ];
