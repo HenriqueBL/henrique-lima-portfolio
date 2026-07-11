@@ -29,12 +29,13 @@ export type ResumeContent = Record<Locale, ResumeSection>;
 export const resume: ResumeContent = {
   pt: {
     summary:
-      "Estudante de Análise e Desenvolvimento de Sistemas (4º período) em busca de estágio em desenvolvimento de software. Construo aplicações web full stack com Java, TypeScript e React, usando desenvolvimento assistido por IA para entregar com qualidade e velocidade. Inglês fluente, com semestre de High School nos Estados Unidos. Perfil autodidata, comunicativo e movido por curiosidade.",
+      "Estudante de Análise e Desenvolvimento de Sistemas (4º período) em busca de estágio em desenvolvimento de software. Trabalho com Java e Python — incluindo automação de processos e extração de dados com Selenium, Playwright e requests — além de aplicações web com React, integração via APIs REST e banco de dados SQL. Uso desenvolvimento assistido por IA para entregar com qualidade e velocidade. Inglês fluente, com semestre de High School nos Estados Unidos; perfil autodidata, proativo e movido por curiosidade.",
     strengths: [
-      "Desenvolvimento full stack com foco em código limpo e escalável",
+      "Automação de processos e extração de dados com Python (Selenium, Playwright, requests)",
+      "Aplicações web e APIs REST com Java, Spring Boot e React",
+      "Banco de dados SQL e testes automatizados (JUnit)",
       "Colaboração produtiva com IA (Claude Code, Prompt Engineering)",
-      "Inglês fluente e experiência internacional",
-      "Aprendizado rápido de novas tecnologias",
+      "Inglês fluente, perfil proativo e aprendizado rápido",
     ],
     education: [
       {
@@ -62,7 +63,11 @@ export const resume: ResumeContent = {
       { name: "Inglês", level: "Fluente" },
     ],
     hardSkills: [
-      { group: "Linguagens", items: ["Java", "TypeScript", "JavaScript", "HTML", "CSS", "SQL"] },
+      { group: "Linguagens", items: ["Java", "Python", "TypeScript", "JavaScript", "HTML", "CSS", "SQL"] },
+      {
+        group: "Automação & Extração de Dados",
+        items: ["Selenium", "Playwright", "PyAutoGUI", "Requests", "Web Scraping", "Automação de Processos"],
+      },
       { group: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Responsividade", "UI/UX"] },
       {
         group: "IA & Produtividade",
@@ -85,6 +90,7 @@ export const resume: ResumeContent = {
       "Inglês Fluente",
       "High School nos EUA (Programa Ganhe o Mundo)",
       "Desenvolvimento utilizando Claude Code",
+      "Automação e extração de dados com Python",
       "Facilidade para aprender novas tecnologias",
       "Interesse em Inteligência Artificial",
       "Boa comunicação",
@@ -124,12 +130,13 @@ export const resume: ResumeContent = {
   },
   en: {
     summary:
-      "Systems Analysis and Development student (4th semester) seeking a software development internship. I build full stack web applications with Java, TypeScript and React, using AI-assisted development to ship with quality and speed. Fluent in English, with a High School semester in the United States. Self-taught, communicative and driven by curiosity.",
+      "Systems Analysis and Development student (4th semester) seeking a software development internship. I work with Java and Python — including process automation and data extraction with Selenium, Playwright and requests — plus web applications with React, integration through REST APIs and SQL databases. I use AI-assisted development to ship with quality and speed. Fluent in English, with a High School semester in the United States; self-taught, proactive and driven by curiosity.",
     strengths: [
-      "Full stack development focused on clean, scalable code",
+      "Process automation and data extraction with Python (Selenium, Playwright, requests)",
+      "Web applications and REST APIs with Java, Spring Boot and React",
+      "SQL databases and automated testing (JUnit)",
       "Productive collaboration with AI (Claude Code, Prompt Engineering)",
-      "Fluent English and international experience",
-      "Fast learner of new technologies",
+      "Fluent English, proactive mindset and fast learning",
     ],
     education: [
       {
@@ -157,7 +164,11 @@ export const resume: ResumeContent = {
       { name: "English", level: "Fluent" },
     ],
     hardSkills: [
-      { group: "Languages", items: ["Java", "TypeScript", "JavaScript", "HTML", "CSS", "SQL"] },
+      { group: "Languages", items: ["Java", "Python", "TypeScript", "JavaScript", "HTML", "CSS", "SQL"] },
+      {
+        group: "Automation & Data Extraction",
+        items: ["Selenium", "Playwright", "PyAutoGUI", "Requests", "Web Scraping", "Process Automation"],
+      },
       { group: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Responsive Design", "UI/UX"] },
       {
         group: "AI & Productivity",
@@ -180,6 +191,7 @@ export const resume: ResumeContent = {
       "Fluent English",
       "High School in the USA (Ganhe o Mundo Program)",
       "Development using Claude Code",
+      "Automation and data extraction with Python",
       "Fast to learn new technologies",
       "Interest in Artificial Intelligence",
       "Strong communication",

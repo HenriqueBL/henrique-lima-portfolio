@@ -144,7 +144,9 @@
   }
 }
 
-/* Estilos de impressão para o currículo (Ctrl+P / Baixar PDF). */
+/* Estilos de impressão para o currículo (Ctrl+P / Baixar PDF).
+   Otimizado para ATS: coluna única, texto preto, fonte padrão, sem
+   espaçamento entre letras, sem ícones e skills em texto corrido. */
 @media print {
   @page {
     margin: 14mm;
@@ -156,10 +158,54 @@
   .no-print {
     display: none !important;
   }
+
+  /* Texto 100% preto, fonte padrão e SEM letter-spacing (o espaçamento
+     entre letras quebra a extração de texto em vários ATS). */
+  .print-container,
+  .print-container * {
+    color: #000 !important;
+    letter-spacing: normal !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* Remove a moldura/cartão do documento. */
   .print-container {
     max-width: 100% !important;
     padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
   }
+
+  /* Coluna ÚNICA — ATS lê de cima para baixo, nunca em colunas. */
+  .resume-columns {
+    display: block !important;
+  }
+  .resume-columns > * + * {
+    margin-top: 1.5rem !important;
+  }
+
+  /* Ícones decorativos (SVG) não entram no PDF. */
+  .print-container svg {
+    display: none !important;
+  }
+
+  /* "Pílulas" de skills viram texto simples separado por vírgula. */
+  .resume-chip {
+    display: inline !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+  .resume-chip:not(:last-child)::after {
+    content: ", ";
+  }
+
+  /* Itens de contato separados por " | " em vez de só um espaço. */
+  .resume-contact > li:not(:last-child)::after {
+    content: " | ";
+  }
+
   .print-break-avoid {
     break-inside: avoid;
   }

@@ -53,7 +53,7 @@ export function ResumeDocument() {
             {t("Objetivo", "Objective")}: {L.objective}
           </p>
 
-          <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground">
+          <ul className="resume-contact mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground">
             <li className="inline-flex items-center gap-1.5">
               <Mail className="h-4 w-4 text-accent" /> {resumeContact.email}
             </li>
@@ -73,7 +73,7 @@ export function ResumeDocument() {
           </ul>
         </header>
 
-        <div className="mt-8 grid gap-8 md:grid-cols-3">
+        <div className="resume-columns mt-8 grid gap-8 md:grid-cols-3">
           {/* Coluna principal */}
           <div className="space-y-8 md:col-span-2">
             <ResumeSection title={L.summary}>
@@ -140,7 +140,7 @@ export function ResumeDocument() {
                       {group.items.map((item) => (
                         <span
                           key={item}
-                          className="rounded-md border border-border bg-muted/50 px-2 py-0.5 text-xs text-muted-foreground"
+                          className="resume-chip rounded-md border border-border bg-muted/50 px-2 py-0.5 text-xs text-muted-foreground"
                         >
                           {item}
                         </span>
@@ -170,7 +170,7 @@ export function ResumeDocument() {
                 {data.softSkills.map((s) => (
                   <span
                     key={s}
-                    className="rounded-md border border-border bg-muted/50 px-2 py-0.5 text-xs text-muted-foreground"
+                    className="resume-chip rounded-md border border-border bg-muted/50 px-2 py-0.5 text-xs text-muted-foreground"
                   >
                     {s}
                   </span>

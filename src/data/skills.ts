@@ -21,6 +21,7 @@ export const skillGroups: SkillGroup[] = [
     icon: Code2,
     skills: [
       { name: "Java", level: 75 },
+      { name: "Python", level: 70 },
       { name: "TypeScript", level: 78 },
       { name: "JavaScript", level: 80 },
       { name: "HTML", level: 90 },
@@ -61,6 +62,17 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
+    title: "Automação & Extração de Dados",
+    icon: Bot,
+    skills: [
+      { name: "Selenium", level: 72 },
+      { name: "Playwright", level: 68 },
+      { name: "PyAutoGUI", level: 70 },
+      { name: "Requests", level: 72 },
+      { name: "Web Scraping", level: 70 },
+    ],
+  },
+  {
     title: "Fundamentos",
     icon: Brain,
     skills: [
@@ -87,6 +99,7 @@ export const differentiators: Differentiator[] = [
   { label: "Inglês fluente", icon: Languages },
   { label: "High School nos EUA (Programa Ganhe o Mundo)", icon: Globe },
   { label: "Desenvolvimento com Claude Code", icon: Bot },
+  { label: "Automação e extração de dados com Python", icon: Zap },
   { label: "Facilidade para aprender novas tecnologias", icon: Zap },
   { label: "Interesse em Inteligência Artificial", icon: Sparkles },
   { label: "Boa comunicação", icon: MessageSquare },
@@ -96,6 +109,7 @@ export const differentiators: Differentiator[] = [
 /** Stack em destaque para o marquee do hero. */
 export const techMarquee = [
   "Java",
+  "Python",
   "TypeScript",
   "JavaScript",
   "React",
@@ -108,5 +122,7 @@ export const techMarquee = [
   "Claude Code",
   "Prompt Engineering",
   "APIs REST",
+  "Selenium",
+  "Automação",
   "POO",
 ];

@@ -11,7 +11,7 @@ export const siteConfig = {
   name: "Henrique Lima",
   role: "Análise e Desenvolvimento de Sistemas",
   headline: "AI-Assisted Developer",
-  subtitle: "Java • TypeScript • React • Claude Code",
+  subtitle: "Java • Python • TypeScript • React",
   shortBio:
     "Estudante de Análise e Desenvolvimento de Sistemas em busca de estágio. Construo software real colaborando com IA — do conceito ao deploy.",
   location: "Brasil",
