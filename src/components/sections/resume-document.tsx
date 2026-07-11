@@ -5,13 +5,14 @@ import { Download, Github, Globe, Linkedin, Mail, MapPin, Phone } from "lucide-r
 import { resume, resumeContact } from "@/data/resume";
 import type { Locale } from "@/types";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { buttonStyles } from "@/components/ui/button";
 
 export function ResumeDocument() {
   const [locale, setLocale] = useState<Locale>("pt");
   const data = resume[locale];
   const L = data.labels;
   const t = (pt: string, en: string) => (locale === "pt" ? pt : en);
+  const fileBase = locale === "pt" ? "Curriculo-Henrique-Lima" : "Resume-Henrique-Lima";
 
   return (
     <div>
@@ -35,10 +36,16 @@ export function ResumeDocument() {
           ))}
         </div>
 
-        <Button onClick={() => window.print()} variant="outline">
-          <Download className="h-4 w-4" />
-          {t("Baixar PDF", "Download PDF")}
-        </Button>
+        <div className="flex flex-wrap gap-2">
+          <a href={`/cv/${fileBase}.pdf`} download className={buttonStyles({ variant: "primary" })}>
+            <Download className="h-4 w-4" />
+            {t("Baixar PDF", "Download PDF")}
+          </a>
+          <a href={`/cv/${fileBase}.docx`} download className={buttonStyles({ variant: "outline" })}>
+            <Download className="h-4 w-4" />
+            {t("Baixar Word", "Download Word")}
+          </a>
+        </div>
       </div>
 
       {/* Documento */}

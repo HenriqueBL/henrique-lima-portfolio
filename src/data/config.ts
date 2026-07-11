@@ -14,7 +14,7 @@ export const siteConfig = {
   subtitle: "Java • Python • TypeScript • React",
   shortBio:
     "Estudante de Análise e Desenvolvimento de Sistemas em busca de estágio. Construo software real colaborando com IA — do conceito ao deploy.",
-  location: "Brasil",
+  location: "Paulista, PE",
   email: "henriquebl2000@gmail.com",
   phone: "+55 (81) 98367-3405",
   // URL pública do site (usada em SEO, sitemap e Open Graph).

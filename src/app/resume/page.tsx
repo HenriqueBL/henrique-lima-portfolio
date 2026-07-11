@@ -18,7 +18,7 @@ export default function ResumePage() {
         <PageHeader
           eyebrow="Currículo"
           title="Meu currículo"
-          description="Disponível em português e inglês. Use o botão para salvar em PDF (impressão) — o layout já está otimizado para papel."
+          description="Disponível em português e inglês. Baixe em PDF ou Word — arquivos otimizados para ATS (coluna única, fonte padrão e texto selecionável)."
         />
       </div>
       <Section className="pt-10">
