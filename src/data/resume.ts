@@ -29,7 +29,7 @@ export type ResumeContent = Record<Locale, ResumeSection>;
 export const resume: ResumeContent = {
   pt: {
     summary:
-      "Estudante de Análise e Desenvolvimento de Sistemas (4º período) em busca de estágio em desenvolvimento de software. Trabalho com Java e Python — incluindo automação de processos e extração de dados com Selenium, Playwright e requests — além de aplicações web com React, integração via APIs REST e banco de dados SQL. Uso desenvolvimento assistido por IA para entregar com qualidade e velocidade. Inglês fluente, com semestre de High School nos Estados Unidos; perfil autodidata, proativo e movido por curiosidade.",
+      "Estudante de Análise e Desenvolvimento de Sistemas (4º período), proativo e movido por tecnologia. Tenho experiência prática no desenvolvimento de aplicações web, bancos de dados SQL e integração via APIs REST com Java e Python, além de automação de processos e extração de dados (web scraping) com Selenium, Playwright e requests. Base sólida em lógica de programação e POO, com foco em entregar código de qualidade usando desenvolvimento assistido por IA (Claude Code). Inglês fluente (intercâmbio nos EUA), aprendizado rápido e comunicação clara.",
     strengths: [
       "Automação de processos e extração de dados com Python (Selenium, Playwright, requests)",
       "Aplicações web e APIs REST com Java, Spring Boot e React",
@@ -40,9 +40,9 @@ export const resume: ResumeContent = {
     education: [
       {
         title: "Análise e Desenvolvimento de Sistemas",
-        institution: "Graduação em andamento",
+        institution: "Estácio · Graduação em andamento (4º período)",
         period: "Jan 2025 — Atual",
-        detail: "4º período. Foco em programação, POO, banco de dados e desenvolvimento web.",
+        detail: "Foco: Estrutura de Dados, POO, Banco de Dados SQL e Engenharia de Software.",
       },
       {
         title: "High School — Intercâmbio (EUA)",
@@ -63,11 +63,12 @@ export const resume: ResumeContent = {
       { name: "Inglês", level: "Fluente" },
     ],
     hardSkills: [
-      { group: "Linguagens", items: ["Java", "Python", "TypeScript", "JavaScript", "HTML", "CSS", "SQL"] },
+      { group: "Linguagens", items: ["Python", "Java", "JavaScript", "TypeScript", "SQL", "HTML", "CSS", "C# (base transferível)"] },
       {
         group: "Automação & Extração de Dados",
         items: ["Selenium", "Playwright", "PyAutoGUI", "Requests", "Web Scraping", "Automação de Processos"],
       },
+      { group: "Backend & Banco de Dados", items: ["APIs REST", "Spring Boot", "Banco de Dados SQL", "JUnit"] },
       { group: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Responsividade", "UI/UX"] },
       {
         group: "IA & Produtividade",
@@ -115,7 +116,7 @@ export const resume: ResumeContent = {
     ],
     labels: {
       role: "Análise e Desenvolvimento de Sistemas",
-      objective: "Estágio em Desenvolvimento de Software",
+      objective: "Estágio em Desenvolvimento de Software / Engenharia de Software",
       summary: "Resumo Profissional",
       strengths: "Destaques",
       education: "Formação",
@@ -130,7 +131,7 @@ export const resume: ResumeContent = {
   },
   en: {
     summary:
-      "Systems Analysis and Development student (4th semester) seeking a software development internship. I work with Java and Python — including process automation and data extraction with Selenium, Playwright and requests — plus web applications with React, integration through REST APIs and SQL databases. I use AI-assisted development to ship with quality and speed. Fluent in English, with a High School semester in the United States; self-taught, proactive and driven by curiosity.",
+      "Systems Analysis and Development student (4th semester), proactive and driven by technology. I have hands-on experience developing web applications, SQL databases and REST API integrations with Java and Python, plus process automation and data extraction (web scraping) with Selenium, Playwright and requests. Strong foundation in programming logic and OOP, focused on shipping quality code with AI-assisted development (Claude Code). Fluent English (exchange in the USA), fast learner with clear communication.",
     strengths: [
       "Process automation and data extraction with Python (Selenium, Playwright, requests)",
       "Web applications and REST APIs with Java, Spring Boot and React",
@@ -141,9 +142,9 @@ export const resume: ResumeContent = {
     education: [
       {
         title: "Systems Analysis and Development",
-        institution: "Bachelor's degree (in progress)",
+        institution: "Estácio · In progress (4th semester)",
         period: "Jan 2025 — Present",
-        detail: "4th semester. Focus on programming, OOP, databases and web development.",
+        detail: "Focus: Data Structures, OOP, SQL Databases and Software Engineering.",
       },
       {
         title: "High School — Exchange (USA)",
@@ -164,11 +165,12 @@ export const resume: ResumeContent = {
       { name: "English", level: "Fluent" },
     ],
     hardSkills: [
-      { group: "Languages", items: ["Java", "Python", "TypeScript", "JavaScript", "HTML", "CSS", "SQL"] },
+      { group: "Languages", items: ["Python", "Java", "JavaScript", "TypeScript", "SQL", "HTML", "CSS", "C# (transferable base)"] },
       {
         group: "Automation & Data Extraction",
         items: ["Selenium", "Playwright", "PyAutoGUI", "Requests", "Web Scraping", "Process Automation"],
       },
+      { group: "Backend & Databases", items: ["REST APIs", "Spring Boot", "SQL Databases", "JUnit"] },
       { group: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Responsive Design", "UI/UX"] },
       {
         group: "AI & Productivity",
@@ -216,7 +218,7 @@ export const resume: ResumeContent = {
     ],
     labels: {
       role: "Systems Analysis and Development",
-      objective: "Software Development Internship",
+      objective: "Software Development / Software Engineering Internship",
       summary: "Professional Summary",
       strengths: "Highlights",
       education: "Education",
