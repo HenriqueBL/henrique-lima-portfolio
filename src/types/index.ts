@@ -19,7 +19,8 @@ export type ProjectCategory =
   | "Full Stack"
   | "Back-end"
   | "Front-end"
-  | "CLI";
+  | "CLI"
+  | "Automação";
 
 export interface Project {
   slug: string;

@@ -65,6 +65,50 @@ export const projects: Project[] = [
     accent: { from: "#34d399", to: "#22d3ee" },
   },
   {
+    slug: "realtime-api-watcher",
+    title: "Realtime API Watcher",
+    tagline: "Monitor de API em tempo real com auto-ação",
+    category: "Automação",
+    year: "2026",
+    featured: true,
+    description:
+      "Monitora um endpoint REST em tempo real e dispara uma ação automática assim que um novo item aparece — em vez de atualizar a página na mão.",
+    longDescription:
+      "O Realtime API Watcher observa um endpoint REST e reage sozinho em milissegundos quando surge um novo item. Autentica via JWT (com renovação automática antes de expirar), faz polling de baixa latência com uma sessão HTTP compartilhada e pool de conexões, e para cada item dispara um worker em thread própria que executa a ação até obter sucesso — sem bloquear o loop principal. Em falhas de rede, aplica backoff exponencial. Toda a configuração vem de variáveis de ambiente, sem credenciais no código.",
+    tech: ["Python 3.11", "requests", "Threading", "JWT", "APIs REST", "Automação", "Web Scraping"],
+    features: [
+      "Autenticação JWT com token em cache e renovação automática",
+      "Polling de baixa latência com requests.Session + pool de conexões",
+      "Um worker concorrente por item, tentando a ação até obter sucesso",
+      "Backoff exponencial em falhas de rede",
+      "Configuração 100% por ambiente (.env), sem credenciais no código",
+    ],
+    architecture: [
+      "Classe Watcher encapsula login, polling e ação",
+      "TokenStore controla a validade e a expiração do JWT",
+      "requests.Session com HTTPAdapter (pool de 20 conexões)",
+      "Threads daemon por item com estado de sucesso compartilhado",
+    ],
+    challenges: [
+      "Nunca cair em 401 no meio do loop (renovação antecipada do token)",
+      "Coordenar o polling e múltiplos workers sobre a mesma sessão",
+      "Ser resiliente à instabilidade de rede sem travar o loop",
+    ],
+    learnings: [
+      "Integração e engenharia reversa de APIs REST",
+      "Concorrência com threads e estado compartilhado em Python",
+      "Resiliência: timeouts, retry e backoff exponencial",
+    ],
+    metrics: [
+      { label: "Latência", value: "Sub-segundo" },
+      { label: "Auth", value: "JWT auto" },
+      { label: "Concorrência", value: "N workers" },
+    ],
+    repoUrl: repo("realtime-api-watcher"),
+    liveUrl: "#",
+    accent: { from: "#f97316", to: "#ef4444" },
+  },
+  {
     slug: "portfolio",
     title: "Portfólio Pessoal",
     tagline: "Este site — Next.js, TypeScript e Tailwind",
@@ -121,7 +165,7 @@ export const projects: Project[] = [
     tagline: "Gestão de acervo e empréstimos em Java (POO)",
     category: "CLI",
     year: "2026",
-    featured: true,
+    featured: false,
     description:
       "Aplicação de console em Java para gerenciar acervo, usuários e empréstimos, aplicando herança, polimorfismo e coleções.",
     longDescription:

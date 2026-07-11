@@ -103,9 +103,9 @@ export const resume: ResumeContent = {
         tech: "Java 17, Spring Boot, JPA, H2, JUnit",
       },
       {
-        name: "Sistema de Biblioteca",
-        description: "App de console em Java aplicando POO: herança, polimorfismo e Streams.",
-        tech: "Java, POO, Coleções, Maven",
+        name: "Realtime API Watcher",
+        description: "Monitor de API em tempo real que dispara ações automáticas; JWT, concorrência e backoff.",
+        tech: "Python, requests, Threading, APIs REST",
       },
       {
         name: "Portfólio Pessoal",
@@ -204,9 +204,9 @@ export const resume: ResumeContent = {
         tech: "Java 17, Spring Boot, JPA, H2, JUnit",
       },
       {
-        name: "Library System",
-        description: "Java console app applying OOP: inheritance, polymorphism and Streams.",
-        tech: "Java, OOP, Collections, Maven",
+        name: "Realtime API Watcher",
+        description: "Real-time API monitor that fires automatic actions; JWT, concurrency and backoff.",
+        tech: "Python, requests, Threading, REST APIs",
       },
       {
         name: "Personal Portfolio",
